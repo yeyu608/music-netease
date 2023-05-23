@@ -1,0 +1,112 @@
+#nav-top{
+    height:60px;
+    width:100%;
+    line-height: 60px;
+    background:red;
+}
+#playMenu{
+    height:60px;
+    background:#ccc;
+    width:100%;
+    line-height: 60px;
+}
+#content{
+    display:flex;
+    height:560px;
+}
+#content>#left{
+    width:200px;
+    height:100%;
+    overflow: hidden;
+    text-align: left;
+    padding: 0 0 0 20px;
+    box-sizing: border-box;
+    border-right: 1px solid #ccc;
+}
+#content>#left>#sidenavigation{
+    margin: 15px 0;
+}
+#content>#content-right{
+    flex: 1;
+    padding: 20px 30px;
+    text-align:left;
+    overflow-y:scroll; 
+}
+#findmusic>#nav{
+    display:flex;
+}
+#nav>#topnav{
+    margin:0 25px 0 0;
+}
+
+/* banner */
+#findmusic>#gerecommend>#banner{
+    height: 240px;
+    margin: 20px 0;
+}
+.SwiperStyle{
+    height: 240px;
+}
+.SwiperStyle>img{
+    width:100%;
+    height:100%;
+    border-radius:20px;
+}
+.adm-page-indicator-dot{
+    width: 10px !important;
+    height: 10px !important;
+    background:white !important;
+    border-radius: 10px !important;
+}
+/* 推荐歌单 */
+#remsonglist{
+    display:flex;
+    flex-wrap: wrap;
+}
+#remsonglist>dl{
+    width: 148px;
+    margin:10px 20px 0 0;
+}
+#remsonglist>dl:nth-of-type(5n){
+    margin-right: 0;
+}
+#remsonglist>dl>dt{
+    width: 100%;
+    height: 148px;
+}
+#remsonglist>dl>dt>img{
+    width:100%;
+    height: 100%;
+    border-radius: 10px;
+}
+#remsonglist>dl>dd{
+    padding: 10px 0;
+    font-size: 14px;
+}
+
+/* 热门播客 */
+#hotplay{
+    width: 100%;
+    display:flex;
+    flex-wrap: wrap;
+}
+#hotplay>dl{
+    width: 48%;
+    height:100px;
+    display: flex;
+}
+#hotplay>dl>dt{
+    width:80px;
+    height:80px;
+}
+#hotplay>dl>dt>img{
+    width:100%;
+    height: 100%;
+    border-radius:5px;
+}
+#hotplay>dl>dd{
+    padding: 5px 10px;
+}
+#hotplay>dl>dd>p{
+    margin:5px 0;
+}
